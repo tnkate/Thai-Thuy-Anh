@@ -1,0 +1,92 @@
+<!Doctype HTML>
+<!--Website template by freewebsitetemplates.com-->
+<html>
+<head>
+	<meta charset="UTF-8>
+	<title>Contact - GuFeng Gallary</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-----Jquery JS----->
+	<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html">GuFeng Gallary</a>
+			</div>
+			<ul id="nevigation">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="shop.html">Shop</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="adbox">
+		<div class="hp_pic">
+			<img src="pic 1.jpg" alt="img"
+		</div>
+		<div class="hp-text">
+			<h1>Chinese Ink Painting</h1>
+			<div class="sub_head">
+				<p>
+					Chinese ink painting emphasizes concept and composition. Concept is the idea, and composition is the position, proportion and color arrangement within the painting.
+				</p>
+				<button class="btn">
+					<a href="shop.html"> Exhibit </a>
+				</button>
+			</div>
+		</div>
+	</div>
+<div id="contents">
+	<p>
+	Mindfulness remains an essential element of oriental brush painting, allowing artists to focus on their surroundings, live in the moment, and feel present.
+	</p>
+</div>
+<div id="contents-pic">
+	<div class="pic-2">
+		<img src="pic-2.jpg">
+	</div>
+	<div class="pic-3">
+		<img src="pic-3.jpg">
+	</div>
+</div>
+<div id="hp-about">
+	<div class="hp-about-head">
+ 		<h1>About Us</h1>
+	</div>
+	<div class="hp-about-text">
+		<p> "Mind, Heart and your Hand will come to the connection through your Brush".
+ 
+We believe ink painting/ calligraphy is not only an art format, but also a way to get connected with yourself, to be present and to know yourself...</p>
+	</div>
+	<button class="btn2">
+		<a href="about.html">Explore more </a>
+	</button>
+</div>
+<div id="footer">
+	<div id="connect">
+		<a href="" target="_blank" class="Facebook"></a><a href="" target="_blank" class="googleplus"></a><a href="" target="_blank" class="twitter"></a><a href="" target="_blank" class="tumbler"></a>
+	</div>
+	<p>
+	© 2023 GuFeng Gallary.| 19229121 Thai Thuy Anh | All Rights Reserved.
+	</p>
+</div>
+	<!----JavaScript-->
+	<script>
+		$(function () {
+            $(document).scroll(function () {
+                var $nav = $("#header");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+	</script>
+</body>
