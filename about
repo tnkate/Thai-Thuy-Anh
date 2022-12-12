@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About - White Blossoms</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!----- Jquery JS----->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html">GuFeng Gallary</a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li class="active">
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="shop.html">Shop</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="adbox">
+		<div class="hp_pic">
+			<img src="images/au-pic1.jpg" alt="Img">
+		</div>
+		<div class="au_text">
+			<h1>Our Story</h1>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="about">
+			<h1>About</h1>
+			<h2>Our Vision</h2>
+			<p>
+				Painting is like another format of meditation. When you are not looking for the perfect art result but just focus on your inner self, your breath, your being, you will find your hand will start to paint by itself.
+ 
+''It is not me who paint the flower, but the flower presents itself through my brush"
+			</p>
+		</div>
+	</div>
+	<div id="au-contents-pic">
+		<div class="au-pic-1">
+			<img src="file:///Users/thaithuyanh/Downloads/White%20Blossoms/images/pic-4.jpg">
+		</div>
+		<div class="au-contents-text">
+			<h1>Founder</h1>
+			<h2>Thai Thuy Anh</h2>
+			<p>I grew up in a traditional Vietnamese family where I was surrounded with all the cultural elements and atmosphere, and nuture my art's loving</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="connect">
+			<a href="" target="_blank" class="facebook"></a><a href="" target="_blank" class="googleplus"></a><a href="" target="_blank" class="twitter"></a><a href="" target="_blank" class="tumbler"></a>
+		</div>
+		<p>
+			© 2023 GuFeng Gallary.| 19229121 Thai Thuy Anh | All Rights Reserved.
+		</p>
+	</div>
+<!----JavaScript-->
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#header");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+	</script>
+</body>
+</html>
